@@ -1,0 +1,86 @@
+/* variáveis do CSS */
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  /* alinhamento vertical */
+  align-items: center;
+  /* alinhamento horizontal */
+  justify-content: space-between;
+}
+
+header .logo{
+  color: var(--vermelho);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+
+header nav a{
+  text-decoration: none;
+  color: #aaa;
+  margin-right:10px;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+/* MAIN */
+
+.mainMovie{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%) ,url('https://images8.alphacoders.com/112/1125196.jpg');
+
+  background-size: cover;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  /* o Justify Content sempre segue a direção do flex-direction */
+  justify-content: center;
+  /* Se refere a linha horizontal */
+  align-items: flex-start;
+
+}
+
+.mainMovie .description{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.title{
+  margin-top: 9%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+}
+
+/* botoes */
+.buttons button{
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  color:white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.buttons button:hover{
+  background-color: white;
+  color: black
+}
+
+.buttons i{
+  margin-right: 8px;
+}
+
+.container{
+  margin-left: 10px;
+}
+
+.mainMovie .container{
+  width: 70%;
+}
