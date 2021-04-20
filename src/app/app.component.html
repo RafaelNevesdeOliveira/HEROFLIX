@@ -1,43 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HeroesFlix  </title>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h2 class='logo'>HEROFLIX</h2>
-      <nav>
-        <a href="#">Ínicio</a>
-        <a href="#">Séries</a>
-        <a href="#">Filmes</a>
-        <a href="#">Documentário</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <div class="mainMovie">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HeroesFlix</title>
+  </head>
+  <body>
+    <header>
       <div class="container">
-        <h3 class="title">HOMEM DE AÇO</h3>
-        <p class="description">Um jovem menino aprende que tem poderes extraordinários e não é desta Terra. Quando jovem, ele viaja para descobrir de onde veio e para o quê foi enviado a fazer. Mas o herói nele deve emergir se quiser salvar o mundo da aniquilação e se tornar o símbolo de esperança para toda a humanidade.</p>
-        <div class="buttons">
-          <button role="button" class="watch">
-            <i class="fas fa-play"></i>
-            ASSISTIR AGORA
-          </button>
-          <button role="button" class="moreInformation">
-            <i class="fas fa-info-circle"></i>
-            MAIS INFORMAÇÕES
-          </button>
+        <h2 class="logo">HEROFLIX</h2>
+        <nav>
+          <a href="#">Ínicio</a>
+          <a href="#">Séries</a>
+          <a href="#">Filmes</a>
+          <a href="#">Documentário</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="mainMovie">
+        <div class="container">
+          <h3 class="title">HOMEM DE AÇO</h3>
+          <p class="description">
+            Um jovem menino aprende que tem poderes extraordinários e não é
+            desta Terra. Quando jovem, ele viaja para descobrir de onde veio e
+            para o quê foi enviado a fazer. Mas o herói nele deve emergir se
+            quiser salvar o mundo da aniquilação e se tornar o símbolo de
+            esperança para toda a humanidade.
+          </p>
+          <div class="buttons">
+            <button role="button" class="watch">
+              <i class="fas fa-play"></i>
+              ASSISTIR AGORA
+            </button>
+            <button role="button" class="moreInformation">
+              <i class="fas fa-info-circle"></i>
+              MAIS INFORMAÇÕES
+            </button>
+          </div>
         </div>
       </div>
 
-    </div>
-  </main>
+      <!-- <div class="listMovie">
+        <video
+          id="my-video"
+          class="video-js"
+          controls=""
+          preload="auto"
+          width="640"
+          height="300"
+          poster="MY_VIDEO_POSTER.jpg"
+          data-setup="{}"
+        >
+          <source
+            src="../assets/video/Man of Steel - Official Trailer 3 [HD].mp4"
+            type="video/mp4"
+          />
+          <source
+            src="../assets/video/Man of Steel - Official Trailer 3 [HD].mp4"
+            type="video/webm"
+          />
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading
+            to a web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+              >supports HTML5 video</a
+            >
+          </p>
+        </video>
+      </div> -->
 
-</body>
+      <div class="movieCarousel">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img
+              class="box-movie"
+              src="../assets/image/superman.jpeg"
+              alt="Superman"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
