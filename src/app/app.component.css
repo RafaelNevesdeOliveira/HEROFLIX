@@ -40,6 +40,7 @@ header nav a:hover{
   justify-content: center;
   /* Se refere a linha horizontal */
   align-items: flex-start;
+  margin-bottom: 20px;
 
 }
 
@@ -89,4 +90,8 @@ header nav a:hover{
   height:100%;
   width: 100%;
   display: block;
+}
+
+.carousel{
+  margin: 20px;
 }
