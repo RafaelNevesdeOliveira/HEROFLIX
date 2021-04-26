@@ -42,51 +42,25 @@
           </div>
         </div>
       </div>
-
-
     </main>
 
-    <div class="carousel">
+<!--
+  <div *ngFor="let student of students">
+    {{student.id}}
+    {{student.name}}
+    <img [src]="student.image">
+  </div>
+-->
 
+    <div class="carousel">
       <owl-carousel-o [options]="customOptions">
-        <ng-template carouselSlide>
+        <ng-template carouselSlide *ngFor="let image of images">
           <div class="slide">
-            <img class="box-movie" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/c1k1N5rrA6NGhKUZ6hOYR0Am9Ss.jpg" alt="img 1">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <!-- <video width="100%" controls="controls">
-              <iframe src="../../../ass" frameborder="0"></iframe>
-              <source src="../assets/video/Man of Steel - Official Trailer 3 [HD].mp4" type="video/mp4" />
-            </video> -->
-            <img class="box-movie" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w8Hi3GI4q1oR6EImrDWrAQFn8Ha.jpg" alt="img 1">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img class="box-movie" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vGIIl89vglo66yUfbuTxzNAs4y5.jpg" alt="img 3">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img class="box-movie" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Ar8jquseIADaFtMH6dQpskLwDYf.jpg" alt="img 4">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img class="box-movie" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/n8eF3o2ldX4ifR5m4G51cjClBP5.jpg" alt="img 5">
-          </div>
-        </ng-template>
-        <ng-template carouselSlide>
-          <div class="slide">
-            <img class="box-movie" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ArWn6gCi61b3b3hclD2L0LOk66k.jpg" alt="img 6">
+            <img src="{{ image }}" class="box-movie" alt="" />
           </div>
         </ng-template>
       </owl-carousel-o>
-
     </div>
-
   </body>
 </html>
 
