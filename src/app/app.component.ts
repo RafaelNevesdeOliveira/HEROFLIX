@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
     mouseDrag: true,
     touchDrag: true,
     pullDrag: false,
-    nav: true,
+    nav: false,
     navSpeed: 600,
     navText: ['&#8249', '&#8250;'],
     responsive: {
@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
         items: 3,
       },
       1000: {
-        items: 5,
+        items: 4,
       }
     },
   };
