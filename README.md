@@ -1,4 +1,4 @@
-# Venske Physiotherapy page
+# HEROFLIX page
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
@@ -17,10 +17,6 @@ Tecnologied used:
 
 
 ![image](/src/assets/image/printReadme.png)
-
-# TMDB the moviedb - site para informações de filmes, serie e etc
-
-# fontawesome - icones para tudo que é coisa
 
 ## Development server
 
