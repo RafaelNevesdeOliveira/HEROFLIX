@@ -1,6 +1,22 @@
-# HeroesFlix
+# Venske Physiotherapy page
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+
+# Introduction
+
+Avanade test practical project:
+
+Tecnologied used:
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>AngularJS</li>
+<li>Angular</li>
+<li>Carousel Lib.</li>
+</ul>
+
+
+![image](/src/assets/image/printReadme.png)
 
 # TMDB the moviedb - site para informações de filmes, serie e etc
 
