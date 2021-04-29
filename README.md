@@ -10,7 +10,6 @@ Tecnologied used:
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<li>AngularJS</li>
 <li>Angular</li>
 <li>Carousel Lib.</li>
 </ul>
